@@ -1,2 +1,2 @@
-# C_labs
-NSU completed labs 
+# first c program
+done with some restrictions 
