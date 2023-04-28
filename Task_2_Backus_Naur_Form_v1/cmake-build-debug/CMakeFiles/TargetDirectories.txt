@@ -1,0 +1,3 @@
+D:/CLionProjects/C/C_labs/Task_2_Backus_Naur_Form_v1/cmake-build-debug/CMakeFiles/task2_in_out.dir
+D:/CLionProjects/C/C_labs/Task_2_Backus_Naur_Form_v1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/C/C_labs/Task_2_Backus_Naur_Form_v1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

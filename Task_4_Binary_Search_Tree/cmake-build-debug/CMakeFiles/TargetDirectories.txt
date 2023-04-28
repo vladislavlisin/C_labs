@@ -1,0 +1,3 @@
+D:/CLionProjects/C/Task_4_Binary_Search_Tree/cmake-build-debug/CMakeFiles/task4_field.dir
+D:/CLionProjects/C/Task_4_Binary_Search_Tree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/C/Task_4_Binary_Search_Tree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

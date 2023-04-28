@@ -1,0 +1,89 @@
+(1)
+TEXT:
+you can't make
+DELETE:
+LEVEL:
+2
+//Список слов, которые необходимо удалить пуст
+// вывод корректный
+(2)
+TEXT:
+you can't you cant you
+DELETE:
+you
+LEVEL:
+2
+//В списке есть повторяющиеся слова
+// программа берёт одно остальные пропускает
+(3)
+TEXT:
+you make without
+eggs.
+DELETE:
+without
+you
+make
+LEVEL:
+2
+// Список слов полностью совпадает со списком слов, которые нужно удалить
+// программа не вывод слова, так как слов на данном уровне нет
+(4)
+TEXT:
+you can't make an omelet without breaking a few 
+eggs.
+DELETE:
+without
+you
+make
+LEVEL:
+99
+// Слишком большой уровень для вывода
+// Требуемого уровня в дереве просто нет, поэтому программа ничего не выводит
+(5)
+TEXT:
+DELETE:
+without
+you
+make
+LEVEL:
+2
+// Список слов ПУСТ
+// Программа завершается с ошибкой
+(6)
+TEX:
+you can't make an omelet without breaking a few 
+eggs.
+DELETE:
+without
+you
+make
+LEVEL:
+2
+// Случай, когда одно из указательных слов пропущено или введено не корректно
+// Программа даёт не верный вывод
+(7)
+TEXT:
+you can't омлет an omelet without breaking a few 
+eggs.
+DELETE:
+омлет
+you
+make
+LEVEL:
+2
+// В списке слов присутствуют не английские литералы
+// Никак не влияет на работоспособность программы
+(8)
+TEXT:
+you can't make an omelet without breaking a few 
+eggs.
+DELETE:
+without
+without
+make
+you
+without
+LEVEL:
+2
+//В списке слов на удаление некоторые слова повторяются  
+//Вывод корректный 
